@@ -1,0 +1,151 @@
+body {
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+table {
+    width: 100%;
+}
+td {
+    vertical-align: middle;
+    text-align: center;
+}
+.promo {
+    background-color: #333;
+    color: white;
+    padding: 30px 0;
+}
+.promo a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+/* baner tengah */
+.banner {
+    position: relative;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), 
+                url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7dd5c68224af410981192ed824b971e4_9366/Argentina_Anniversary_Jersey_Blue_JF2641_HM1.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.banner p {
+    font-size: 20px;
+    margin: 20px 0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.banner button {
+    padding: 15px 30px;
+    background-color: #dff571;
+    color: #333;
+    border: none;
+    /* border-radius: 25px; */
+    font-size: 18px;
+    font-weight: bold;
+    /* cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease; */
+}
+
+/* .banner button:hover {
+    background-color: #cbe458;
+} */
+/* end baner tengah */
+
+/* bawah e baner */
+.filters {
+    background-color: #f8f8f8;
+    padding: 15px 0;
+}
+
+.filter-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.filter-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    /* border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+/* .filter-btn:hover {
+    background-color: #dff571;
+    color: #333;
+    border-color: #cbe458;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.filter-btn:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} */
+/* end bawah e baner */
+
+/* produk */
+.produk {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 20px;
+padding: 20px;
+margin: 0 250px;
+}
+.produk td {
+    list-style: none;
+    background-color: white;
+    border: 1px solid #ddd;
+    /* border-radius: 10px; */
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+}
+/* .produk td:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+} */
+.produk img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.produk-judul {
+    font-weight: bold;
+    margin: 10px 0;
+    font-size: 16px;
+}
+.hargab {
+    color: green;
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+.produk p {
+    margin: 5px 0;
+}
